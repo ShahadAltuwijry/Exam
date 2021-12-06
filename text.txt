@@ -1,0 +1,13 @@
+1- wrong model path, todo id without "s".
+2- getCompletedTodos route didnt have params
+3- updateTodo didnt have export
+4- completeTodo didnt have $set, added it
+5- todo module: task was boolean it supposed to be string + made the export shorter
+6- createTodo used "todo" but its called task in the module
+7- completeTodo didnt search for the id correctly, { _id: id } the correct way
+8- updateTodo didnt have a $set for the task
+9- deleteTodo didnt have $set and didnt have {new: true} to update the schema
+10- updateTodo route didnt have params id
+11- .env port had semicolon
+12- changed routes with params to avoid any unexpected errors
+13- index.js cors didnt have paranthesis
